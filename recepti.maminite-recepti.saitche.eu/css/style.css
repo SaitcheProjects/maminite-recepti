@@ -1,0 +1,202 @@
+body {
+    box-sizing: border-box;
+    background: url("/images/cooking.jpg") #FFF no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    line-height: 28px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0b2e13;
+}
+
+
+a.nav-link:hover {
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+    border-top: 3px solid #CF3482;
+    box-shadow: 2px 2px 5px #F777B7;
+}
+
+.navbar .nav-item {
+    font-weight: bold;
+    font-size: 1rem;
+    width: 80px;
+    text-align: center;
+}
+
+.navbar .nav-link {
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.categories img {
+    width: 45px;
+}
+
+.prof img {
+    width: 25px;
+}
+
+
+/* home-section*/
+#reception-section {
+    position: relative;
+    min-height: 700px;
+}
+
+.dark-overlay {
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Receptions block */
+.reception-block {
+    width: 100%;
+    position: relative;
+}
+
+.recipe {
+    width: 215px;
+}
+
+.reception-block img {
+    width: 100%;
+    height: 200px;
+}
+
+.reception-content {
+    background-color: rgba(255,188,66,.8);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.reception-content h6 {
+    color: #000;
+    font-weight: bold;
+}
+
+/*** ------------------- Видео рецепти ------------------- ***/
+.video, .popular {
+    font-family: FANTASY, sans-serif;
+    font-size: 1.2rem;
+}
+
+#video-recipes .card-text{
+    height: 70px;
+}
+
+/*** ------------------- Видео рецепти ------------------- ***/
+
+/*** ------------------- Рецепта на деня ------------------- ***/
+.dayRecipe {
+    background: linear-gradient(to right, #ad5389, #3c1053);
+}
+/*** ------------------- Рецепта на деня end ---------------- ***/
+
+
+/*** ------------------- Популярно днес  ------------------- ***/
+#popular-articles {
+    background: linear-gradient(to right, #DA4453, #89216B);
+}
+
+.popular .list-group-item {
+    background: rgb(245, 245, 245);
+    overflow: hidden;
+}
+
+/*** ------------------- Популярно днес end ---------------- ***/
+
+/* ------------------- Show reception ------------------*/
+#page-header {
+    background: url("../images/prepare-cooking.jpeg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+#reception .recipe-img {
+    margin-top: -50px;
+}
+
+/* ------------------- Show reception ---------------- */
+#reception .list-group-item {
+    padding: .15rem .5rem;
+    margin-bottom: 1px;
+    border: 1px solid rgba(0,0,0,.15);
+}
+
+/* ------------------- Blog ---------------- */
+#blog {
+    background: url('../images/nature-flowers.jpeg') no-repeat;
+    background-size: cover;
+}
+
+
+#blog img, #video-recipes img {
+    height: 100px;
+}
+
+#blog .card:hover {
+    background: #17a2b8;
+    cursor: pointer;
+
+}
+
+/* ------------------ Blog  --------------- */
+
+/* ------------------ Подобни рецепти  --------------- */
+#likeRecipes {
+    background: linear-gradient(to right, #fceabb, #f8b500);
+}
+
+.like-recipe-img {
+    width: 75px;
+    height: 60px;
+    padding-right: 10px;
+}
+
+/* ------------------ Подобни рецепти  --------------- */
+
+
+/* ------------------- Responsive Media Queries ---------------- */
+@media (max-width: 770px) {
+
+    .recipe-img {
+        width: 75%;
+    }
+
+    .flex-xs-column-reverse {
+        flex-direction: column-reverse!important;
+    }
+}
+
+@media (max-width: 400px) {
+    #page-header h1 {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* ------------------- Responsive Media Queries  ---------------- */
+
